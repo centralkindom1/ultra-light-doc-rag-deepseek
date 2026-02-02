@@ -35,7 +35,7 @@ except ImportError as e:
 # --- 工业级配置中心 ---
 GLOBAL_CONFIG = {
     # 1. 聊天/推理 API (DeepSeek - 用于生成规则)
-    "CHAT_API_URL": "https://aiplus.airchina.com.cn:18080/v1/chat/completions",
+    "CHAT_API_URL": "https://www.deepseek.com:18080/v1/chat/completions",
     "CHAT_MODEL": "DeepSeek-V3", 
     
     # 2. 向量化 API (BGE-M3 - 用于生产环境高精度检索)
@@ -43,7 +43,7 @@ GLOBAL_CONFIG = {
     "REMOTE_EMBED_MODEL": "bge-m3", # 局域网模型名称
     
     # 3. 通用鉴权
-    "API_KEY": "sk-fXM4W0CdcKnNp3NVDfF85f2b90284b11AfDdF9F5627f627b",
+    "API_KEY": "your api key",
     
     # 4. 本地模型配置
     "LOCAL_BGE_PATH": r"D:\Models\bge-small-zh-v1.5",
@@ -613,4 +613,5 @@ if __name__ == "__main__":
     
     win = MainWindow()
     win.show()
+
     sys.exit(app.exec_())
