@@ -33,8 +33,8 @@ except ImportError as e:
     sys.exit(1)
 
 GLOBAL_CONFIG = {
-    "BASE_URL": "https://aiplus.airchina.com.cn:18080/v1",
-    "API_KEY": "sk-fXM4W0CdcKnNp3NVDfF85f2b90284b11AfDdF9F5627f627b",
+    "BASE_URL": "https://www.deepseek.com:18080/v1",
+    "API_KEY": "your api key",
     "MODEL_EMBED": "bge-m3",
     "MODEL_RERANK": "bge-reranker-v2-m3",
     "MODEL_REWRITE_DEFAULT": "DeepSeek-V3",
@@ -744,4 +744,5 @@ if __name__ == "__main__":
     app.setFont(font)
     win = IndustrialRAGWindow()
     win.show()
+
     sys.exit(app.exec_())
