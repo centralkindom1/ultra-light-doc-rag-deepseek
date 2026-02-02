@@ -39,7 +39,7 @@ GLOBAL_CONFIG = {
     "CHAT_MODEL": "DeepSeek-V3", 
     
     # 2. 向量化 API (BGE-M3 - 用于生产环境高精度检索)
-    "EMBED_API_URL": "https://aiplus.airchina.com.cn:18080/v1/embeddings",
+    "EMBED_API_URL": "https://www.siconflow.com:18080/v1/embeddings",
     "REMOTE_EMBED_MODEL": "bge-m3", # 局域网模型名称
     
     # 3. 通用鉴权
@@ -615,3 +615,4 @@ if __name__ == "__main__":
     win.show()
 
     sys.exit(app.exec_())
+
