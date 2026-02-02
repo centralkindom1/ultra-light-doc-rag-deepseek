@@ -35,8 +35,8 @@ except ImportError as e:
 # 1. 核心配置区 (User Config)
 # ==========================================
 CONFIG = {
-    "API_URL": "https://aiplus.airchina.com.cn:18080/v1/chat/completions",
-    "API_KEY": "sk-fXM4W0CdcKnNp3NVDfF85f2b90284b11AfDdF9F5627f627b",
+    "API_URL": "https://www.deepseek.com:18080/v1/chat/completions",
+    "API_KEY": "your api key",
     "API_MODEL": "qwen2.5-72b",  # 局域网模型名称
     "BGE_PATH": r"D:\Models\bge-small-zh-v1.5", # 本地 BGE 模型路径
     "MAX_SAMPLE_CHARS": 2500,    # 发送给 AI 进行分析的字符数
@@ -541,4 +541,5 @@ if __name__ == "__main__":
     
     window = MainWindow()
     window.show()
+
     sys.exit(app.exec_())
